@@ -5,11 +5,48 @@
 }
 /* seletor pela tag  */
 p {
-    color: rgb(253, 41, 112);
+    color: #f00;
+}
+
+main{
+  margin-top: 1rem;
 }
 
 /* seletor pela calsse */
 .paragrafo{
-    border: 1px solid cornflowerblue;
-    color: rgb(255, 58, 173);
+    border: 1px solid #0ff;
+    color: #00f;
+    margin-top: 1rem;
+}
+/* seletor pela ID */
+
+#titulo {
+  color: #0f0;
+  margin-bottom: 1rem;
+}
+
+/* seletor por atributo */
+
+input[type="password"] {
+  font-size: 3rem;
+}
+
+/* seletor por descendente*/
+
+.login-form input {
+  font-size: 2rem;
+  color: #f00;
+}
+
+/* seletor de filhos diretos */
+
+.login-form > input {
+  color: #0f0;
+  width: 10rem;
+}
+
+/* pseudo-classes */
+
+.cadastro-form div:nth-of-type(2) {
+ background: #00f;
 }
